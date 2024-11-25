@@ -1,12 +1,12 @@
 === VS Meta Description ===
 Contributors: Guido07111975
-Version: 7.6
+Version: 7.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Requires PHP: 7.0
 Requires at least: 5.0
-Tested up to: 6.6
-Stable tag: 7.6
+Tested up to: 6.7
+Stable tag: 7.7
 Tags: simple, meta description, seo, google, bing
 
 
@@ -89,6 +89,9 @@ Please open a topic in the WordPress.org support forum for this plugin.
 
 
 == Changelog ==
+= Version 7.7 =
+* Textual changes
+
 = Version 7.6 =
 * Minor changes in code
 
@@ -120,10 +123,6 @@ Please open a topic in the WordPress.org support forum for this plugin.
 * Removed function load_plugin_textdomain() because redundant
 * Plugin uses the WP language packs for its translation
 * Kept translation folder for reference
-
-= Version 6.7 =
-* Plugin has a new name
-* But plugin itself and ownership did not change
 
 For all versions please check file changelog.
 

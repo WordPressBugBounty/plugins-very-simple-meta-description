@@ -2,7 +2,7 @@
 /*
  * Plugin Name: VS Meta Description
  * Description: With this lightweight plugin you can add a meta description to your website.
- * Version: 7.6
+ * Version: 7.7
  * Author: Guido
  * Author URI: https://www.guido.site
  * License: GPLv3

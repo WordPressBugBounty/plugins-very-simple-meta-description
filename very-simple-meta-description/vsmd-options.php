@@ -56,7 +56,7 @@ function vsmd_section_callback_1() {
 	echo '<ul>';
 	echo '<li>'.esc_attr__( 'Search engines such as Google and Bing will use the meta description when displaying search results.', 'very-simple-meta-description' ).'</li>';
 	echo '<li>'.esc_attr__( 'The meta description should reflect the content of your post or page.', 'very-simple-meta-description' ).'</li>';
-	echo '<li>'.esc_attr__( 'Using the same meta description throughout your website is not SEO friendly.', 'very-simple-meta-description' ).'</li>';
+	echo '<li>'.esc_attr__( 'Using the same meta description throughout your website is not recommended.', 'very-simple-meta-description' ).'</li>';
 	echo '</ul>';
 }
 
