@@ -1,12 +1,12 @@
 === VS Meta Description ===
 Contributors: Guido07111975
-Version: 7.7
+Version: 7.8
+Stable tag: 7.8
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Requires PHP: 7.0
-Requires at least: 5.0
-Tested up to: 6.7
-Stable tag: 7.7
+Requires PHP: 7.4
+Requires at least: 6.0
+Tested up to: 6.8
 Tags: simple, meta description, seo, google, bing
 
 
@@ -78,6 +78,9 @@ This section is only available if WooCommerce is installed and active.
 = Can I use this plugin with other SEO plugins? =
 If you have an active plugin (or theme) that also contains a meta description feature, don't activate or use this feature.
 
+= Can I use the plugin on a ClassicPress website? =
+Yes you can!
+
 = Why is there no semantic versioning? =
 The version number won't give you info about the type of update (major, minor, patch). You should check the changelog to see whether or not the update is a major or minor one.
 
@@ -89,6 +92,11 @@ Please open a topic in the WordPress.org support forum for this plugin.
 
 
 == Changelog ==
+= Version 7.8 =
+* Code improvements
+* Bumped the "requires PHP" version to 7.4
+* Bumped the "Requires at least" version to 6.0
+
 = Version 7.7 =
 * Textual changes
 
@@ -118,11 +126,6 @@ Please open a topic in the WordPress.org support forum for this plugin.
 
 = Version 6.9 =
 * Minor changes in code
-
-= Version 6.8 =
-* Removed function load_plugin_textdomain() because redundant
-* Plugin uses the WP language packs for its translation
-* Kept translation folder for reference
 
 For all versions please check file changelog.
 
