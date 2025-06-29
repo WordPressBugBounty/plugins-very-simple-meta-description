@@ -1,5 +1,8 @@
 == Changelog VS Meta Description ==
 
+= Version 7.9 =
+* Removed wrong header from main plugin file
+
 = Version 7.8 =
 * Code improvements
 * Bumped the "requires PHP" version to 7.4

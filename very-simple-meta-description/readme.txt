@@ -1,7 +1,7 @@
 === VS Meta Description ===
 Contributors: Guido07111975
-Version: 7.8
-Stable tag: 7.8
+Version: 7.9
+Stable tag: 7.9
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Requires PHP: 7.4
@@ -92,6 +92,9 @@ Please open a topic in the WordPress.org support forum for this plugin.
 
 
 == Changelog ==
+= Version 7.9 =
+* Removed wrong header from main plugin file
+
 = Version 7.8 =
 * Code improvements
 * Bumped the "requires PHP" version to 7.4
@@ -122,9 +125,6 @@ Please open a topic in the WordPress.org support forum for this plugin.
 * Minor changes in code
 
 = Version 7.0 =
-* Minor changes in code
-
-= Version 6.9 =
 * Minor changes in code
 
 For all versions please check file changelog.
