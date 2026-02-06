@@ -1,13 +1,13 @@
 === VS Meta Description ===
 Contributors: Guido07111975
-Version: 7.9
-Stable tag: 7.9
+Version: 8.1
+Stable tag: 8.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Requires PHP: 7.4
 Requires at least: 6.0
-Tested up to: 6.8
-Tags: simple, meta description, seo, google, bing
+Tested up to: 6.9
+Tags: meta description, seo, google, bing, classicpress
 
 
 With this lightweight plugin you can add a meta description to your website.
@@ -78,9 +78,6 @@ This section is only available if WooCommerce is installed and active.
 = Can I use this plugin with other SEO plugins? =
 If you have an active plugin (or theme) that also contains a meta description feature, don't activate or use this feature.
 
-= Can I use the plugin on a ClassicPress website? =
-Yes you can!
-
 = Why is there no semantic versioning? =
 The version number won't give you info about the type of update (major, minor, patch). You should check the changelog to see whether or not the update is a major or minor one.
 
@@ -92,6 +89,12 @@ Please open a topic in the WordPress.org support forum for this plugin.
 
 
 == Changelog ==
+= Version 8.1 =
+* Minor changes in code
+
+= Version 8.0 =
+* Minor changes in code
+
 = Version 7.9 =
 * Removed wrong header from main plugin file
 
@@ -118,13 +121,6 @@ Please open a topic in the WordPress.org support forum for this plugin.
 = Version 7.2 =
 * Bumped the "requires PHP" version to 7.0
 * Bumped the "requires at least" version to 5.0
-* Minor changes in code
-
-= Version 7.1 =
-* Textual changes
-* Minor changes in code
-
-= Version 7.0 =
 * Minor changes in code
 
 For all versions please check file changelog.

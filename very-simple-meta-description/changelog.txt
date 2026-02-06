@@ -1,5 +1,11 @@
 == Changelog VS Meta Description ==
 
+= Version 8.1 =
+* Minor changes in code
+
+= Version 8.0 =
+* Minor changes in code
+
 = Version 7.9 =
 * Removed wrong header from main plugin file
 

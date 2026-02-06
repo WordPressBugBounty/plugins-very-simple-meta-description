@@ -2,7 +2,7 @@
 /*
  * Plugin Name: VS Meta Description
  * Description: With this lightweight plugin you can add a meta description to your website.
- * Version: 7.9
+ * Version: 8.1
  * Author: Guido
  * Author URI: https://www.guido.site
  * License: GPLv3
@@ -25,7 +25,7 @@ add_action( 'init', 'vsmd_page_excerpt' );
 
 // add settings link
 function vsmd_action_links( $links ) {
-	$settingslink = array( '<a href="'. admin_url( 'options-general.php?page=vsmd' ) .'">'. __( 'Settings', 'very-simple-meta-description' ) .'</a>', );
+	$settingslink = array( '<a href="'. admin_url( 'options-general.php?page=vsmd' ) .'">'. __( 'Settings', 'very-simple-meta-description' ) .'</a>' );
 	return array_merge( $links, $settingslink );
 }
 add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'vsmd_action_links' );

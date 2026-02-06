@@ -102,7 +102,7 @@ function vsmd_field_callback_5() {
 	$value = get_option( 'vsmd-setting-5' );
 	$count = mb_strlen( $value, 'UTF-8' );
 	?>
-	<textarea name="vsmd-setting-5" rows="5" cols="50" maxlength="500" style="min-width:50%;"><?php echo esc_attr( $value ); ?></textarea>
+	<textarea name="vsmd-setting-5" rows="5" cols="50" maxlength="500" style="min-width:50%;"><?php echo esc_textarea( $value ); ?></textarea>
 	<?php
 	if ( ( $count > 160 ) || ( $count < 120 ) ) {
 		$color = 'red';
@@ -110,7 +110,7 @@ function vsmd_field_callback_5() {
 		$color = 'green';
 	}
 	?>
-	<p><?php printf( esc_html__( 'The length of this meta description is %s characters.', 'very-simple-meta-description' ), '<span style="color:'.esc_attr( $color ).';">'.esc_html( $count ).'</span>' ); ?></p>
+	<p><?php /* translators: %s: number of characters. */ printf( esc_html__( 'The length of this meta description is %s characters.', 'very-simple-meta-description' ), '<span style="color:'.esc_attr( $color ).';">'.esc_html( $count ).'</span>' ); ?></p>
 	<p><?php esc_html_e( 'The recommended length is roughly between 120 and 160 characters.', 'very-simple-meta-description' ); ?></p>
 	<?php
 }
